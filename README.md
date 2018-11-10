@@ -1,5 +1,7 @@
 # TerMITes ROS
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c778ce67e4cc468e8ce6452c2c6902a4)](https://app.codacy.com/app/yagoliz/termites_ros?utm_source=github.com&utm_medium=referral&utm_content=yagoliz/termites_ros&utm_campaign=Badge_Grade_Dashboard)
+
 This package gets the data sent from terMITes and sends it to the ROS system.
 
 ---
