@@ -22,20 +22,20 @@ user@machine:~/catkin_ws/src$ cd .. && catkin_make
 ```
 
 If it compiles without errors, open a terminal and start a roscore:
-```
+```bash
 user@machine:~$ roscore
 ```
 
 On another terminal run:
-```
+```bash
 user@machine:~$ rosrun termites_ros termite_control.py
 ```
 
 To check if it's working, you can open a third terminal and run:
-```
+```bash
 user@machine:~$ rostopic echo /termite
 ```
 
 ## Notes to open the serial
 
-The [hardware_rule](hardware_rule/hardware_rule.md) folder contains intructions on ow to set the udev rules for the terMITe
+The [hardware_rule](hardware_rule/hardwareRule.md) folder contains intructions on ow to set the udev rules for the terMITe
